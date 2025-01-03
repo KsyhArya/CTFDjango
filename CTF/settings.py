@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-gte39m!pnxhrdz4a3@xl5v(n-%t!q(u94+*zm-(r%lyk$$$99#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [gunicorn CTF.wsgi:application]
+ALLOWED_HOSTS = [gunicorn DjangoCTF.wsgi:application]
 
 
 # Application definition
