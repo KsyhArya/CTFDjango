@@ -1,1 +1,1 @@
-web: gunicorn DjangoCTF.wsgi:application
+web: gunicorn CTF.wsgi:application
