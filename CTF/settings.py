@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'CTF.urls'
+ROOT_URLCONF = 'CTFDjango.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'CTF.wsgi.application'
+WSGI_APPLICATION = 'CTFDjango.wsgi.application'
 
 
 # Database
