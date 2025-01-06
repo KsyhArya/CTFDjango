@@ -1,1 +1,1 @@
-web: gunicorn CTF.wsgi:application
+web: gunicorn CTFDjango.wsgi:application
