@@ -1,3 +1,2 @@
 @@ -1 +1 @@
-web: gunicorn CTFDjango.wsgi:application
-web: gunicorn CTFDjango.wsgi:application --bind 0.0.0.0:$POR
+web: gunicorn DjangoCTF.wsgi:application --bind 0.0.0.0:$POR
