@@ -27,6 +27,11 @@ SECRET_KEY = 'django-insecure-gte39m!pnxhrdz4a3@xl5v(n-%t!q(u94+*zm-(r%lyk$$$99#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# Security Settings
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
+
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ctfdjango.onrender.com']
 
 # Application definition
@@ -157,5 +162,6 @@ except Exception as e:
 
 AUTH_USER_MODEL = 'community.User'
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-MEDIA_URL = ''
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'  # Change from empty string to '/media/'
+
