@@ -57,6 +57,11 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+# Add these settings
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_MANIFEST_STRICT = False
+WHITENOISE_AUTOREFRESH = True
+
 ROOT_URLCONF = 'CTF.urls'
 
 TEMPLATES = [
